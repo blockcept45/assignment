@@ -1,0 +1,70 @@
+/* Weather.css */
+
+/* Container for weather info */
+.weather-info {
+  max-width: 320px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+/* City name */
+.weather-info h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: 1.2px;
+}
+
+/* Weather details paragraphs */
+.weather-info p {
+  font-size: 16px;
+  margin: 6px 0;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Weather icon */
+.weather-info img {
+  margin-top: 12px;
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+  border-radius: 10px;
+}
+
+/* Loading and error messages styling */
+.weather-info p.loading,
+.weather-info p.error {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Responsive for smaller devices */
+@media (max-width: 400px) {
+  .weather-info {
+    max-width: 90vw;
+    padding: 15px 20px;
+  }
+  
+  .weather-info h2 {
+    font-size: 22px;
+  }
+  
+  .weather-info p {
+    font-size: 14px;
+  }
+  
+  .weather-info img {
+    width: 80px;
+    height: 80px;
+  }
+}

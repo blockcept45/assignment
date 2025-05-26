@@ -1,0 +1,13 @@
+.error-message {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 15px 20px;
+  background-color: #ff4d6d;
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 15px rgba(255, 77, 109, 0.5);
+  user-select: none;
+}
